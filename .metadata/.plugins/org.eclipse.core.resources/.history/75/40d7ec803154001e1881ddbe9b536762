@@ -1,0 +1,20 @@
+package application;
+
+import entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.name = "Clips";
+		product.price = 0.50;
+		product.quantity = 5000;
+		
+		product.TotalValueInStock();
+		product.removeProducts();
+		product.TotalValueInStock();
+		product.addProducts();
+		product.TotalValueInStock();
+	}
+
+}

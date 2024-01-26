@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Matrix;
+
+public class Main {
+	static Matrix matrix = null;
+	
+	matri.buildmatriz(n);
+	int matriz[][];
+	
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o tamanho da sua matriz: ");
+		int n = sc.nextInt();
+		matrix = new Matrix(n);
+		matrix.buildmatriz();
+	}
+
+}

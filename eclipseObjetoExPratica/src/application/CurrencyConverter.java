@@ -1,0 +1,9 @@
+package application;
+
+public class CurrencyConverter {
+
+	public static double converter(double dollarprice, double dollartarget) {
+		return (dollarprice*dollartarget)+(0.06*(dollarprice*dollartarget));
+
+	}
+}

@@ -1,0 +1,9 @@
+package application;
+
+public class CurrencyConverter {
+
+	public CurrencyConverter() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

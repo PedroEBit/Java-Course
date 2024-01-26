@@ -1,0 +1,22 @@
+package entities;
+
+import java.util.Scanner;
+
+public class Matrix {
+	Scanner sc = new Scanner(System.in);
+	int n, col, lin, matriz[][];
+
+	public Matrix(int n) {
+		super();
+		this.n = n;
+	}
+	
+	public static int[][] buildmatriz(int n) {
+		int matriz[][] = new int[n][n];
+		return matriz;
+	}
+	
+	public void 
+	
+	
+}

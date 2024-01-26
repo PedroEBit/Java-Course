@@ -1,0 +1,11 @@
+package entities;
+
+public class Matrix {
+	int dimension, col, lin, matriz[][];
+
+	public Matrix(int dimension, int[][] matriz) {
+		super();
+		this.dimension = dimension;
+		this.matriz = matriz;
+	}
+}

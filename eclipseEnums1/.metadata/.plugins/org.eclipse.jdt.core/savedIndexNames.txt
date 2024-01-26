@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\pedro\Workspaces\workspace-eclipse\eclipseEnums1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1060129334.index
+197168885.index
+1771831550.index

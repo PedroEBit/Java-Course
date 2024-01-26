@@ -1,0 +1,39 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Product product = new Product();
+		System.out.println("Enter product data: ");
+
+		System.out.print("Name: ");
+		product.name = sc.next();
+
+		System.out.print("Quantity: ");
+		product.quantity = sc.nextInt();
+
+		System.out.print("Price: ");
+		product.price = sc.nextDouble();
+
+		System.out.println("Total value of " 
+		+ product.name 
+		+ " in stock is USD " 
+		+ product.TotalValueInStock()
+		+ ", considering the individual price of USD " 
+		+ product.price 
+		+ " each");
+		System.out.println(product);
+
+		product.removeProducts(sc.nextInt());
+		System.out.println(product);
+
+		product.addProducts(sc.nextInt());
+		System.out.println(product);
+	}
+
+}

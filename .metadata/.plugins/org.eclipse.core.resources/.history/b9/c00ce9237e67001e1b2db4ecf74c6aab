@@ -1,0 +1,35 @@
+package entities;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Matrix {
+	Scanner sc = new Scanner(System.in);
+	int n;
+	int col;
+	int lin;
+	int matriz[][];
+
+	public Matrix(int n) {
+		super();
+		this.n = n;
+	}
+	
+	public int[][] buildmatriz() {
+		int matriz[][] = new int[n][n];
+		for(int i=0; i<n;i++) {
+			for (int j=0; j<n; j++) {
+				matriz[i][j] = sc.nextInt();
+			}
+		}
+		return matriz;
+	}
+
+	@Override
+	public String toString() {
+		return "Matrix [matriz=" + Arrays.toString(matriz) + "]";
+	}
+
+	
+	
+}
