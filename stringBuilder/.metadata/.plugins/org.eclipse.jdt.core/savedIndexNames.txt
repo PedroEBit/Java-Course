@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\pedro\Workspaces\workspace-eclipse\stringBuilder\.metadata\.plugins\org.eclipse.jdt.core
+3186816769.index
+1060129334.index
+1865797976.index
